@@ -1,10 +1,12 @@
 export default function Header() {
   return (
-    <header className="header  mt-0 mt-lg-4">
-      <section class="header-secondary ">
-        <section className="container">
-            <section class="header-social-media d-none d-lg-block">
-            <ul>
+    <header className="header">
+      <section className="header-secondary">
+        <section className="header-secondary-inner d-flex justify-content-between container">
+          <h1 className="d-block d-lg-none">Monochrome</h1>
+
+          <div className="header-connect d-none d-lg-block">
+            <ul className="header-social-media d-flex">
               <li>
                 <a
                   href=""
@@ -55,11 +57,11 @@ export default function Header() {
                 </a>
               </li>
             </ul>
-          </section>
+          </div>
 
-          <section class="header-site-controls">
-            <ul>
-              <li>
+          <div className="header-controls container">
+            <ul className="header-search d-flex">
+              <li className="d-none d-lg-block">
                 <form action="/" class="header-search-form">
                   <input
                     type="text"
@@ -95,52 +97,11 @@ export default function Header() {
                 </a>
               </li>
             </ul>
-          </section>
+          </div>
         </section>
-
       </section>
 
-      <section class="header-primary">
-        <nav class="nav-main container">
-          <ul>
-            <li>
-              <a href="" title="New arrivals">
-                New arrivals
-              </a>
-            </li>
-
-            <li>
-              <a href="" title="Brands">
-                Brands
-              </a>
-            </li>
-
-            <li>
-              <a href="" title="Men's">
-                Men's
-              </a>
-            </li>
-
-            <li>
-              <a href="" title="Women's">
-                Women's
-              </a>
-            </li>
-
-            <li>
-              <a href="" title="Accessories">
-                Accessories
-              </a>
-            </li>
-
-            <li>
-              <a href="" title="Lookbook">
-                Lookbook
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </section>
+      <section className="header-primary"></section>
     </header>
   );
 }
