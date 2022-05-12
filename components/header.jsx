@@ -60,7 +60,7 @@ export default function Header() {
           </div>
 
           <div className="header-controls container">
-            <ul className="header-search d-flex">
+            <ul className="header-search d-flex justify-content-between">
               <li className="d-none d-lg-block">
                 <form action="/" class="header-search-form">
                   <input
