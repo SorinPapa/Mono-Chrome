@@ -1,0 +1,101 @@
+.header {
+  &-secondary {
+    padding: 15px 0;
+    h1 {
+      font-size: 19px;
+      font-family: Playfair Display, Regular Roman;
+      line-height: 22px;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+
+    ul {
+      gap: 25px;
+      font-size: 19px;
+
+      @include media-breakpoint-up(lg) {
+        gap: 30px;
+        font-size: 16px;
+        padding: 0 100px;
+
+        .header-search {
+          font-size: 15px;
+        }
+      }
+    }
+
+
+    @include media-breakpoint-up(lg) {
+      margin: 10;
+      height: 500px;
+      background: $gray-primary url('/images/banners/banner.png') no-repeat
+        center center / cover;
+
+        .header-social-media {
+          margin-top: 30px;
+          font-size: 16px;
+        }
+
+        .header-controls {
+          margin-top: 30px;
+        }
+
+        .header-contact {
+          font-family:Playfair Display, Regular Roman;
+          text-transform: uppercase;
+        }
+    }
+  }
+
+  &-connect {
+    color: $brand-secondary;
+  }
+
+  &-primary {
+    background-color: $brand-primary;
+    height: 50px;
+
+    @include media-breakpoint-up(lg) {
+      color: $brand-secondary;
+      display: flex;
+      align-items: center;
+      font-family: Playfair Display, Regular Roman;
+      text-transform: uppercase;
+      font-size: 19px;
+    }
+  }
+
+  &-primary-mobile {
+    ul {
+      color: $white;
+      font-size: 32px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: baseline;
+      width: 242px;
+      height: 30px;
+      border: 1px solid $white;
+    }
+
+    form ::placeholder {
+      color: $white;
+      font-size: 12px;
+    }
+
+    form input {
+      background: none;
+      border: none;
+    }
+
+    form button {
+      font-size: 14px;
+      color: $white;
+      background: none;
+      border: none;
+    }
+  }
+}
