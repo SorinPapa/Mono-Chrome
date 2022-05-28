@@ -2,13 +2,13 @@ export default function Footer() {
   return (
     <footer className="footer">
       <section className="footer-inner container">
-        <section className="footer-connect">
-          <section className="footer-newsletter">
-            <h1 className="d-block d-lg-none">Let s connect</h1>
+        <section className="footer-connect d-block d-lg-none">
+          <div className="footer-newsletter">
+            <h1>Let s connect</h1>
 
-            <h3 className="d-block d-lg-none">
+            <h2 >
               Be the first to receive exclusives offers
-            </h3>
+            </h2>
 
             <form action="">
               <label htmlFor="email" className="d-none d-lg-block">
@@ -34,10 +34,10 @@ export default function Footer() {
               <a href=""> Privacy Policy </a>
               and i want to receive emails from Monochrome.
             </h3>
-          </section>
+          </div>
 
-          <section className="footer-social">
-            <h1 className="d-block d-lg-none">We are highly likeable</h1>
+          <div className="footer-social">
+            <h1>We are highly likeable</h1>
 
             <ul className="mt-2 mt-lg-0">
               <li>
@@ -84,7 +84,7 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-          </section>
+          </div>
         </section>
 
         <section className="footer-nav">
@@ -181,7 +181,7 @@ export default function Footer() {
           </section>
         </section>
 
-        <section className="footer-contact d-none d-lg-block">
+        <section className="footer-contact container d-none d-lg-block">
           <ul>
             <li>
               <a href="tel:+44 (0)10 2345 6789" title="Call us">

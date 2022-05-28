@@ -1,2 +1,96 @@
 .footer {
+  &-inner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: $brand-primary;
+    padding: 25px 0;
+
+    @include media-breakpoint-up(lg) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+      text-transform: lowercase;
+      padding-top: 40px;
+    }
+  }
+
+  &-connect {
+    background-color: $gray-primary;
+  }
+
+  &-newsletter {
+    background-color: $gray-primary;
+
+    h1 {
+      font-family: Playfair Display;
+      font-size: 22px;
+      color: $brand-primary;
+      font-weight: bold;
+      margin-top: 25px;
+      line-height: 30px;
+    }
+
+    h2 {
+      font-family: Roboto, Regular;
+      font-size: 15px;
+      line-height: 15px;
+    }
+
+    form {
+      label {
+        font-family: Roboto, Medium;
+        font-size: 12px;
+        color: $brand-primary;
+        font-weight: bold;
+      }
+
+      input {
+        width: 261px;
+        height: 35px;
+        margin-bottom: 25px;
+        border: 1px solid $gray-primary;
+      }
+
+      input::placeholder {
+        font-family: 'Roboto';
+        font-size: 12px;
+        font-weight: 500;
+        color: $brand-primary;
+        padding-left: 10px;
+      }
+    }
+
+    button {
+      height: 25px;
+      width: 75px;
+      text-transform: uppercase;
+      font-family: Roboto, Regular;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 12px;
+      text-align: center;
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+  &-social {
+    margin-top: 20px;
+
+    h1 {
+      font-size: 22px;
+      font-family: Playfair Display, Regular Roman;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+      font-size: 30px;
+      gap: 20px;
+    }
+  }
 }
