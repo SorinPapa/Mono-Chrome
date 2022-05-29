@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <section className="footer-inner container">
-        <section className="footer-contact container d-none d-lg-block">
+        <section className="footer-contact  d-none d-lg-block">
           <ul>
             <li>
               <a href="tel:+44 (0)10 2345 6789" title="Call us">
@@ -106,8 +106,8 @@ export default function Footer() {
             </ul>
           </nav>
 
-          <section className="footer-nav-terms d-block d-lg-none mt-5 mt-lg-0">
-            <ul>
+          <section className="footer-nav-terms  mt-5 mt-lg-0">
+            <ul className="d-block d-lg-none">
               <li>
                 <h2>terms and conditions</h2>
               </li>
@@ -119,14 +119,16 @@ export default function Footer() {
           </section>
         </section>
 
-        <section className="footer-connect d-block d-lg-none">
+        <section className="footer-connect ">
           <div className="footer-newsletter">
-            <h1>Let s connect</h1>
+            <h1 className="d-block d-lg-none">Let s connect</h1>
 
-            <h2>Be the first to receive exclusives offers</h2>
+            <h2 className="d-block d-lg-none">
+              Be the first to receive exclusives offers
+            </h2>
 
             <form action="">
-              <label htmlFor="email" className="d-none d-lg-block">
+              <label htmlFor="email" className="d-none d-lg-block sign-in">
                 Sign up for our newsletter
               </label>
 
@@ -144,7 +146,7 @@ export default function Footer() {
               Submit
             </button>
 
-            <h3>
+            <h3 className="d-block d-lg-none">
               I agree with
               <a href=""> Privacy Policy </a>
               and i want to receive emails from Monochrome.
@@ -152,9 +154,9 @@ export default function Footer() {
           </div>
 
           <div className="footer-social">
-            <h1>We are highly likeable</h1>
+            <h1 className="d-block d-lg-none">We are highly likeable</h1>
 
-            <ul className="mt-2 mt-lg-0">
+            <ul className=" mt-2 mt-lg-0">
               <li>
                 <a
                   href=""
