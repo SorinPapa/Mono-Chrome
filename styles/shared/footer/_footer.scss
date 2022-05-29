@@ -1,4 +1,10 @@
 .footer {
+  background-color: $brand-primary;
+
+  @include media-breakpoint-up(lg) {
+    height: 252px;
+  }
+
   &-inner {
     display: flex;
     flex-direction: column;
@@ -13,6 +19,7 @@
       text-align: left;
       text-transform: lowercase;
       padding-top: 40px;
+      background-color: $gray-primary;
     }
   }
 
@@ -79,7 +86,8 @@
     }
   }
   &-social {
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 
     h1 {
       font-size: 22px;
@@ -91,6 +99,68 @@
       justify-content: center;
       font-size: 30px;
       gap: 20px;
+    }
+  }
+
+  &-nav {
+    background-color: $gray-secondary;
+
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 0;
+      background-color: $gray-secondary;
+    }
+
+    h1 {
+      font-family: Playfair Display;
+      font-size: 22px;
+      color: $brand-secondary;
+      margin-top: 30px;
+    }
+
+    &-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-family: Roboto, Regular;
+      font-size: 16px;
+      color: $brand-secondary;
+      text-transform: lowercase;
+      line-height: 38px;
+      gap: 28px;
+
+      @include media-breakpoint-up(lg) {
+        flex-direction: row;
+        font-family: Playfair Display, Regular Roman;
+        font-size: 22px;
+        line-height: 37px;
+        gap: 168px;
+      }
+    }
+
+    &-terms {
+      margin-bottom: 30px;
+
+      ul > li > h2 {
+        color: $brand-secondary;
+        font-size: 14px;
+        font-weight: 300;
+        font-style: italic;
+        text-decoration: underline;
+      }
+    }
+
+    &-vertical-line {
+      border: 1px solid $brand-secondary;
+      height: 150px;
+    }
+  }
+
+  &-contact {
+    @include media-breakpoint-up(lg) {
+      font-family: Playfair Display;
+      font-size: 22px;
+      line-height: 37px;
+      color: $gray-primary;
     }
   }
 }

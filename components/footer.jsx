@@ -2,13 +2,128 @@ export default function Footer() {
   return (
     <footer className="footer">
       <section className="footer-inner container">
+        <section className="footer-contact container d-none d-lg-block">
+          <ul>
+            <li>
+              <a href="tel:+44 (0)10 2345 6789" title="Call us">
+                Call us <br />
+                +44 (0)10 2345 6789
+              </a>
+            </li>
+
+            <li>
+              <a href="" title="Email customer care">
+                Email customer care
+              </a>
+            </li>
+
+            <li>
+              <a href="" title="See mobile version">
+                See mobile version
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section className="footer-nav">
+          <div className="footer-title d-block d-lg-none mt-4 mt-lg-0">
+            <h1>How cand we help ?</h1>
+          </div>
+
+          <nav className="footer-nav-content mt-3 mt-lg-0">
+            <ul>
+              <li>
+                <a href="" title="Style and fit" className="d-block d-lg-none">
+                  Style and fit
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href=""
+                  title="Style and fit advice"
+                  className="d-none d-lg-block"
+                >
+                  Style and fit advice
+                </a>
+              </li>
+
+              <li>
+                <a href="" title="Faqs">
+                  Faqs
+                </a>
+              </li>
+
+              <li>
+                <a href="" title="Delivery">
+                  Delivery
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href=""
+                  title="Exchanges and returns"
+                  className="d-none d-lg-block"
+                >
+                  Exchanges and returns
+                </a>
+              </li>
+
+              <li>
+                <a href="" title="returns" className="d-block d-lg-none">
+                  Returns
+                </a>
+              </li>
+            </ul>
+
+            <div className="footer-nav-vertical-line d-block d-lg-none mt-1 mt-lg-0"></div>
+
+            <ul>
+              <li>
+                <a href="" title="About us">
+                  About us
+                </a>
+              </li>
+
+              <li>
+                <a href="" title="Careers">
+                  Careers
+                </a>
+              </li>
+
+              <li>
+                <a href="" title="Affiliates">
+                  Affiliates
+                </a>
+              </li>
+
+              <li>
+                <a href="" title="Advertising">
+                  Adverstising
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <section className="footer-nav-terms d-block d-lg-none mt-5 mt-lg-0">
+            <ul>
+              <li>
+                <h2>terms and conditions</h2>
+              </li>
+
+              <li>
+                <h2>privacy and cookies</h2>
+              </li>
+            </ul>
+          </section>
+        </section>
+
         <section className="footer-connect d-block d-lg-none">
           <div className="footer-newsletter">
             <h1>Let s connect</h1>
 
-            <h2 >
-              Be the first to receive exclusives offers
-            </h2>
+            <h2>Be the first to receive exclusives offers</h2>
 
             <form action="">
               <label htmlFor="email" className="d-none d-lg-block">
@@ -85,123 +200,6 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-        </section>
-
-        <section className="footer-nav">
-          <div className="footer-title d-block d-lg-none mt-4 mt-lg-0">
-            <h1>How cand we help ?</h1>
-          </div>
-
-          <nav className="footer-nav-content mt-3 mt-lg-0">
-            <ul>
-              <li>
-                <a href="" title="About us">
-                  About us
-                </a>
-              </li>
-
-              <li>
-                <a href="" title="Careers">
-                  Careers
-                </a>
-              </li>
-
-              <li>
-                <a href="" title="Affiliates">
-                  Affiliates
-                </a>
-              </li>
-
-              <li>
-                <a href="" title="Advertising">
-                  Adverstising
-                </a>
-              </li>
-            </ul>
-
-            <div className="footer-nav-vertical-line d-block d-lg-none mt-1 mt-lg-0"></div>
-
-            <ul>
-              <li>
-                <a href="" title="Style and fit" className="d-block d-lg-none">
-                  Style and fit
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href=""
-                  title="Style and fit advice"
-                  className="d-none d-lg-block"
-                >
-                  Style and fit advice
-                </a>
-              </li>
-
-              <li>
-                <a href="" title="Faqs">
-                  Faqs
-                </a>
-              </li>
-
-              <li>
-                <a href="" title="Delivery">
-                  Delivery
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href=""
-                  title="Exchanges and returns"
-                  className="d-none d-lg-block"
-                >
-                  Exchanges and returns
-                </a>
-              </li>
-
-              <li>
-                <a href="" title="returns" className="d-block d-lg-none">
-                  Returns
-                </a>
-              </li>
-            </ul>
-          </nav>
-
-          <section className="footer-nav-terms d-block d-lg-none mt-5 mt-lg-0">
-            <ul>
-              <li>
-                <h2>terms and conditions</h2>
-              </li>
-
-              <li>
-                <h2>privacy and cookies</h2>
-              </li>
-            </ul>
-          </section>
-        </section>
-
-        <section className="footer-contact container d-none d-lg-block">
-          <ul>
-            <li>
-              <a href="tel:+44 (0)10 2345 6789" title="Call us">
-                Call us <br />
-                +44 (0)10 2345 6789
-              </a>
-            </li>
-
-            <li>
-              <a href="" title="Email customer care">
-                Email customer care
-              </a>
-            </li>
-
-            <li>
-              <a href="" title="See mobile version">
-                See mobile version
-              </a>
-            </li>
-          </ul>
         </section>
       </section>
     </footer>
