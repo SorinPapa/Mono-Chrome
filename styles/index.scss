@@ -22,7 +22,10 @@
 
 //site
 @import './shared/index';
-
+// catalog
+@import './catalog/index';
+// homepage
+@import './homepage/index';
 
 body {
   font-family: 'Roboto', 'sans-serif';
