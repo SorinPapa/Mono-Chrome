@@ -7,13 +7,13 @@ export default function Main() {
       <section className="container">
         <section className="horizontal-line d-lg-none d-block"></section>
 
-        <section className="home-catalog-preview">
+        <section className="home-catalog-preview ">
           <header className="home-catalog-title">
             <h1 className="d-block d-lg-none">Spring Collection</h1>
             <h1 className="d-none d-lg-block">New Stuff</h1>
           </header>
 
-          <div className="d-lg-block d-none">
+          <div className="d-lg-block d-none ">
             <section className="product-tiles">
               <ProductTile></ProductTile>
               <ProductTile></ProductTile>
@@ -22,7 +22,7 @@ export default function Main() {
             </section>
           </div>
 
-          <section className="product-tiles-mobile d-flex justify-content-between d-block d-lg-none mt-3 mb-4">
+          <section className="product-tiles-mobile d-flex justify-content-around gap-3 mt-3 mb-4d-block d-lg-none ">
             <ProductTile></ProductTile>
             <ProductTile></ProductTile>
           </section>
@@ -72,7 +72,7 @@ export default function Main() {
             </section>
           </div>
 
-          <section className="product-tiles mobile d-flex justify-content-between mt-3 mt-4 d-block d-lg-none">
+          <section className="product-tiles mobile d-flex justify-content-between d-block d-lg-none">
             <ProductTile></ProductTile>
 
             <ProductTile></ProductTile>
@@ -98,7 +98,7 @@ export default function Main() {
             </section>
           </div>
 
-          <section className="product-tiles-mobile d-flex justify-content-between mt-8 mb-4 d-block d-lg-none">
+          <section className="product-tiles-mobile d-flex justify-content-between  d-block d-lg-none">
             <ProductTile></ProductTile>
 
             <ProductTile></ProductTile>
