@@ -4,6 +4,14 @@ import HomeInfo from './homepage/home-info';
 export default function Main() {
   return (
     <main className="content">
+      <section className="home-mobile-image mb-4 d-block d-lg-none">
+        <img src="./images/banners/banner-sm.png" alt="Monochrome"></img>
+
+        <a className="cta" href="" title="New in">
+          New in
+        </a>
+      </section>
+
       <section className="container">
         <section className="horizontal-line d-lg-none d-block"></section>
 
