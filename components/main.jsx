@@ -13,8 +13,6 @@ export default function Main() {
       </section>
 
       <section className="container">
-        <section className="horizontal-line d-lg-none d-block"></section>
-
         <section className="home-catalog-preview ">
           <header className="home-catalog-title">
             <h1 className="d-block d-lg-none">Spring Collection</h1>
@@ -36,12 +34,10 @@ export default function Main() {
           </section>
         </section>
 
-        <section className="horizontal-line d-lg-none d-block"></section>
-
         <section className="home-catalog-preview">
           <header className="home-catalog-title">
             <h1 className="d-block d-lg-none">Best Reviewd</h1>
-            <h1 className="d-none d-lg-block">New Stuff</h1>
+            <h1 className="d-none d-lg-block">Must Loved</h1>
           </header>
 
           <div className="d-lg-block d-none">
@@ -60,8 +56,6 @@ export default function Main() {
         </section>
 
         <HomeInfo></HomeInfo>
-
-        <section className="horizontal-line d-lg-none d-block"></section>
 
         <section className="home-catalog-preview">
           <header className="home-catalog-title">
@@ -86,8 +80,6 @@ export default function Main() {
             <ProductTile></ProductTile>
           </section>
         </section>
-
-        <section className="horizontal-line d-lg-none d-block"></section>
 
         <section className="home-catalog-preview">
           <header className="home-catalog-title">
