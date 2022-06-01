@@ -14,7 +14,7 @@ export default function Header() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i class="fa-brands fa-youtube"></i>
+                  <i className="fa-brands fa-youtube"></i>
                 </a>
               </li>
 
@@ -25,7 +25,7 @@ export default function Header() {
                   rel="noopener noreferrer"
                   title="Twitter"
                 >
-                  <i class="fa-brands fa-twitter-square"></i>
+                  <i className="fa-brands fa-twitter-square"></i>
                 </a>
               </li>
 
@@ -36,7 +36,7 @@ export default function Header() {
                   rel="noopener noreferrer"
                   title="Facebook"
                 >
-                  <i class="fa-brands fa-facebook-square"></i>
+                  <i className="fa-brands fa-facebook-square"></i>
                 </a>
               </li>
 
@@ -47,7 +47,7 @@ export default function Header() {
                   rel="noopener noreferrer"
                   title="Instagram"
                 >
-                  <i class="fa-brands fa-instagram-square"></i>
+                  <i className="fa-brands fa-instagram-square"></i>
                 </a>
               </li>
 
@@ -78,13 +78,13 @@ export default function Header() {
 
               <li className="header-wishList-controls">
                 <a href="" title="Wish List">
-                  <i class="fa-solid fa-heart icon"></i>
+                  <i className="fa-solid fa-heart icon"></i>
                 </a>
               </li>
 
               <li className="header-cart-controls">
                 <a href="" title="Cart">
-                  <i class="fa-solid fa-bag-shopping icon"></i>
+                  <i className="fa-solid fa-bag-shopping icon"></i>
                 </a>
               </li>
             </ul>
