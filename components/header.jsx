@@ -72,7 +72,7 @@ export default function Header() {
 
               <li className="header-user-controls">
                 <a href="" title="My Account">
-                  <i class="fa-solid fa-user icon"></i>
+                  <i className="fa-solid fa-user icon"></i>
                 </a>
               </li>
 
